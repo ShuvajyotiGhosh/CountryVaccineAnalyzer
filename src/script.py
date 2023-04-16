@@ -5,7 +5,7 @@ import os
 import sys
 from typing import Optional
 
-os.environ['HADOOP_HOME'] = "C:\\Users\\shuva\\Downloads\\winutils-master\\winutils-master\\hadoop-2.6.0"
+os.environ['HADOOP_HOME'] = "<Mention your path to winutils>"
 os.environ['PYSPARK_PYTHON'] = sys.executable
 os.environ['PYSPARK_DRIVER_PYTHON'] = sys.executable
 
